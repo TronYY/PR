@@ -1,0 +1,11 @@
+function [ output_args ] = drawFig1( u1,u2,x )
+%画二维平面上u1,u2两点的中垂线
+midpoint=(u1+u2)/2;
+%k=(u2(2)-u1(2))/(u2(1)-u1(1));
+k=-(u2(1)-u1(1))/(u2(2)-u1(2));
+y=k*(x-midpoint(1))+midpoint(2);
+plot(x,y);
+
+
+end
+

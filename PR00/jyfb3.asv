@@ -1,0 +1,12 @@
+function y = jyfb3( x,samples )
+%UNTITLED 请在此处输入函数概要
+%   请在此处输入详细说明
+    n=length(samples);
+    v=0;
+    for i=1:n
+       if samples(i) 
+    end
+
+
+end
+

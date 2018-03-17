@@ -1,0 +1,10 @@
+n=100;
+samples1=randn(1,n);
+MIN=min(samples);
+MAX=max(samples);
+
+for i=MIN:100
+    x(i+1)=MIN+i*step;
+    y(i+1)=jyfb3(x,samples);  
+end
+plot(x,y)
